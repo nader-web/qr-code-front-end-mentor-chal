@@ -3,22 +3,18 @@ html{
 }
 body{
     font-family: 'Outfit', sans-serif;
-    
+    background-color:#D5E1EF;
     padding: 0;
     margin: 0;
     height: 100%;
 }  
 
-.background{
-    height: 100%;
-    width: 100%;
-    background-color:#D5E1EF;
-    
-}
+
 /* attr style */
 .attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 p{
+    font-weight: 400;
     font-size: 15px;
     text-align:center;
     color:hsl(220, 15%, 55%) ;
@@ -57,24 +53,21 @@ img{
     justify-content: center;}
     
 h2{
-text-align: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
     }
 /* responsive to large screens */
     @media only screen and (max-width: 1440px)
     {body{
         font-family: 'Outfit', sans-serif;
-        
+        background-color:#D5E1EF;
         padding: 0;
         margin: 0;
         height: 100%;
     }  
     
-    .background{
-        height: 100%;
-        width: 100%;
-        background-color:#D5E1EF;
-        
-    }
+    
     /* attr style */
     .attribution { font-size: 11px; text-align: center;}
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -127,12 +120,12 @@ text-align: center;
                 padding: 0;
                 margin: 0;
                 height: 100%;
-            }  
+                    background-color:#D5E1EF;
+}  
             
             .background{
                 height: 100%;
                 width: 100%;
-                background-color:#D5E1EF;
                 
             }
             /* attr style */
@@ -152,6 +145,7 @@ text-align: center;
                 left: 50%;
                 transform: translate(-50%,-50%);
                 background-color: white;
+                box-shadow: 2px 2px 2px 2px rgba(0, 0,0, 0.6);
                 
             }
             .img-holder {
