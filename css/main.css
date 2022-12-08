@@ -8,7 +8,7 @@
     --margin:0;
     --font-bold:700;
     --font-paragraph:400;
-};
+}
 html{
     height: 100%;
 }
@@ -28,6 +28,7 @@ p{
     color:var(--default-p-color);
     width: 17rem;
     margin: auto;
+
 }
 .container {
     display: block;
