@@ -1,0 +1,14 @@
+/* create a variables for default colors and fonts */
+:root{
+    --bgcolor: #D5E1EF;
+    --grid-color:hsl(0, 0%, 100%),white;
+    --default-p-color:hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+    --border-radius:50%;
+    --Lightgray: hsl(212, 45%, 89%);
+    --margin:0;
+    --font-bold:700;
+    --font-paragraph:400;
+    
+
+}
